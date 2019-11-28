@@ -1,8 +1,6 @@
 package io.atom.builder.model;
 
-import java.util.EnumSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 public abstract class Pizza {
     public enum Topping {HAM, MUSHROOM, ONION, PEPPER, SAUSAGE}
